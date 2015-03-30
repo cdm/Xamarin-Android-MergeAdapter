@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.MergeAdapter", "Xamarin.Android.MergeAdapter\Xamarin.Android.MergeAdapter.csproj", "{A8B9737E-EB04-4359-8FD2-C2287523A801}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.MergeAdapter.Sample", "Xamarin.Android.MergeAdapter.Sample\Xamarin.Android.MergeAdapter.Sample.csproj", "{EBCA52C7-58DA-4352-8E0C-A61B240EF58A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B9737E-EB04-4359-8FD2-C2287523A801}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A8B9737E-EB04-4359-8FD2-C2287523A801}.Debug|x86.Build.0 = Debug|Any CPU
+		{A8B9737E-EB04-4359-8FD2-C2287523A801}.Release|x86.ActiveCfg = Release|Any CPU
+		{A8B9737E-EB04-4359-8FD2-C2287523A801}.Release|x86.Build.0 = Release|Any CPU
+		{EBCA52C7-58DA-4352-8E0C-A61B240EF58A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EBCA52C7-58DA-4352-8E0C-A61B240EF58A}.Debug|x86.Build.0 = Debug|Any CPU
+		{EBCA52C7-58DA-4352-8E0C-A61B240EF58A}.Release|x86.ActiveCfg = Release|Any CPU
+		{EBCA52C7-58DA-4352-8E0C-A61B240EF58A}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Xamarin.Android.MergeAdapter.Sample\Xamarin.Android.MergeAdapter.Sample.csproj
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.TextStylePolicy = $2
+		$2.FileWidth = 120
+		$2.EolMarker = Windows
+		$2.inheritsSet = VisualStudio
+		$2.inheritsScope = text/plain
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.AfterDelegateDeclarationParameterComma = True
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/x-csharp
+		$3.scope = text/x-csharp
+		$0.TextStylePolicy = $4
+		$4.FileWidth = 120
+		$4.TabsToSpaces = False
+		$4.inheritsSet = VisualStudio
+		$4.inheritsScope = text/plain
+		$4.scope = text/plain
+		$0.StandardHeader = $5
+		$5.Text = 
+		$5.IncludeInNewFiles = True
+	EndGlobalSection
+EndGlobal

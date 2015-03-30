@@ -1,12 +1,26 @@
-*.class
+#Autosave files
+*~
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Build/test output
+obj
+bin
+test-results
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# VS sometimes writes these for no apparent reason
+_UpgradeReport_Files
+UpgradeLog.*
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Per-user data
+*.DS_Store
+*.sln.cache
+*.suo
+*.userprefs
+*.usertasks
+*.user
+
+# ReSharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
